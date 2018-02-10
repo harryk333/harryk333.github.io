@@ -1,0 +1,19 @@
+body {
+    background-color: #EDEDED;
+}
+
+.jumbotron {
+	background-color: white;
+}
+
+.navbar {
+	background-color: #333535;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+hr {
+	border-color: #333333;
+}
