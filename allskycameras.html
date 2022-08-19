@@ -57,7 +57,7 @@
 
       <div class="row">
         <div class="col-sm-6 text-center">
-          <h3>Lemmon - SkyCenter</h3>
+          <h3>Mt. Lemmon - SkyCenter</h3>
           <a href="https://www.lpl.arizona.edu/~css/lemmon/">
               <img src="https://www.lpl.arizona.edu/~css/lemmon/allsky.jpg" class="img-responsive" style="width:100%" alt="Image" id="img1">
             </a>
@@ -65,8 +65,8 @@
         </div>
         <div class="col-sm-6 text-center">
           <h3>Kitt Peak - Spacewatch</h3>
-          <a href="http://varuna.kpno.noao.edu/allsky.htm">
-              <img src="http://varuna.kpno.noao.edu/allsky/AllSkyCurrentImage.JPG" class="img-responsive" style="width:100%" alt="Image" id="img2">
+          <a href="http://gagarin.lpl.arizona.edu/allsky.htm">
+              <img src="http://gagarin.lpl.arizona.edu/allsky/AllSkyCurrentImage.JPG" class="img-responsive" style="width:100%" alt="Image" id="img2">
             </a>
             <br>
         </div>
@@ -85,7 +85,7 @@
             <br>
         </div>
         <div class="col-sm-6 text-center"> 
-          <h3>Bigelow - 61in</h3>
+          <h3>Bigelow - 61 in</h3>
           <a href="https://www.lpl.arizona.edu/~css/bigelow/">
               <img src="https://www.lpl.arizona.edu/~css/bigelow/AllSkyCurrentImage.JPG" class="img-responsive" style="width:100%" alt="Image" id="img5">
             </a>
@@ -95,20 +95,6 @@
           <h3>Graham - VATT</h3>
           <a href="http://www.lbto.org">
               <img src="http://abell.as.arizona.edu/~hill/AllSkyCurrentImage.JPG" class="img-responsive" style="width:100%" alt="Image" id="img6">
-            </a>
-            <br>
-        </div>
-        <div class="col-sm-6 text-center"> 
-          <h3>Kitt Peak</h3>
-          <a href="http://www-kpno.kpno.noao.edu/Info/Mtn_Weather/">
-              <img src="http://kpasca-db.tuc.noao.edu/lastpix.png" class="img-responsive" style="width:100%" alt="Image" id="img7">
-            </a>
-            <br>
-        </div>
-        <div class="col-sm-6 text-center"> 
-          <h3>Whipple - Minerva</h3>
-          <a href="http://linmax.sao.arizona.edu/html/pics.html">
-              <img src="http://linmax.sao.arizona.edu/weather/sky/last_sky.jpg" class="img-responsive" style="width:100%" alt="Image" id="img8">
             </a>
             <br>
         </div>
@@ -135,8 +121,6 @@
         var image4 = document.getElementById("img4");
         var image5 = document.getElementById("img5");
         var image6 = document.getElementById("img6");
-        var image7 = document.getElementById("img7");
-        var image8 = document.getElementById("img8");
 
         function updateImage() {
             image1.src = image1.src.split("?")[0] + "?" + new Date().getTime();
@@ -145,8 +129,6 @@
             image4.src = image4.src.split("?")[0] + "?" + new Date().getTime();
             image5.src = image5.src.split("?")[0] + "?" + new Date().getTime();
             image6.src = image6.src.split("?")[0] + "?" + new Date().getTime();
-            image7.src = image7.src.split("?")[0] + "?" + new Date().getTime();
-            image8.src = image8.src.split("?")[0] + "?" + new Date().getTime();
         }
 
         setInterval(updateImage, 30000);
