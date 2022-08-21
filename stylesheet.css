@@ -23,7 +23,7 @@ hr {
 
 /** {box-sizing: border-box;}*/
 
-.container {
+.photoContainer {
   position: relative;
   padding: 0px;
   /*width: 50%;*/
@@ -51,6 +51,6 @@ hr {
   text-align: center;
 }
 
-.container:hover .overlay {
+.photoContainer:hover .overlay {
   opacity: 1;
 }
