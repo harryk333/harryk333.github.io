@@ -25,7 +25,8 @@ hr {
 
 .photoContainer {
   position: relative;
-  padding: 0px;
+  /*padding-top: 15px;*/
+  /*padding-bottom: 15px;*/
   /*width: 50%;*/
   /*max-width: 300px;*/
 }
