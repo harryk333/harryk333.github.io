@@ -18,6 +18,12 @@ hr {
 	border-color: #333333;
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
 
 
 
@@ -29,12 +35,6 @@ hr {
   /*padding-bottom: 15px;*/
   /*width: 50%;*/
   /*max-width: 300px;*/
-}
-
-.image {
-  /*display: block;*/
-  /*width: 100%;*/
-  /*height: auto;*/
 }
 
 .overlay {
